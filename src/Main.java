@@ -26,7 +26,7 @@ public class Main {
         //artyom.name = "Артем";
         //artyom.yearOfBirth = 1974;
         //artyom.town = "Череповец";
-        //artyom.jobTitle = "оператор вышки";
+        //artyom.jobTitle = "оператор вышки"
         artyom.men();
 
 
