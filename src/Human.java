@@ -5,6 +5,12 @@ public class Human {
     public String town;
 
     Human(String name, String jobTitle, int yearOfBirth, String town) {
+        if (yearOfBirth <= 0){
+            throw new IllegalArgumentException();
+        }
+        if (name == null || jobTitle == null || town == null){
+            throw new IllegalArgumentException("Информация не указана при выводе в консоль");
+        }
         this.name = name;
         this.jobTitle = jobTitle;
         this.yearOfBirth = yearOfBirth;
